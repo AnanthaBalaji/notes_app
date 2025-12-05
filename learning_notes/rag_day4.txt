@@ -1,0 +1,482 @@
+========= Dense Semantic Retrival ===========
+=============================================
+
+
+========= Maximum Marginal Relavance ===========
+Content: Gradient  descent  is  a  method  for  unconstrained  mathematical  optimization.  It  is  a  first-order iterative algorithm for  minimizing  a  differentiable multivariate  function.
+The  idea  is  to  take  repeated  steps  in  the  opposite  direction  of  the  gradient (or  approximate  gradient)  of  the  function  at  the  current  point,  because  this  is  the  direction  of
+steepest
+
+descent.
+
+Conversely,
+
+stepping
+
+in
+
+the
+
+direction
+
+of
+
+the
+
+gradient
+
+will
+
+lead
+
+to
+
+a
+
+trajectory
+
+that
+
+maximizes
+
+that
+
+function;
+
+the
+
+procedure
+
+is
+
+then
+
+known
+
+as
+
+-----------------------
+Content: is  minimal.
+An  analogy  for  understanding  gradient  descent
+
+Fog  in  the  mountains
+The  basic  intuition  behind  gradient  descent  can  be  illustrated  by  a  hypothetical  scenario.
+People
+
+are
+
+stuck
+
+in
+
+the
+
+mountains
+
+and
+
+are
+
+trying
+
+to
+
+get
+
+down
+
+(i.e.,
+
+trying
+
+to
+
+find
+
+the
+
+global
+
+minimum).
+
+There
+
+is
+
+heavy
+
+fog
+
+such
+
+that
+
+visibility
+
+is
+
+extremely
+
+low.
+
+Therefore,
+
+the
+
+path
+
+down
+
+the
+
+mountain
+
+is
+
+not
+
+visible,
+
+so
+
+they
+
+must
+
+use
+
+local
+
+information
+
+to
+
+find
+
+the
+
+minimum.
+
+They
+
+can
+
+use
+
+the
+
+-----------------------
+Content: [6]
+ This  is  known  as  the  Universal  Approximation  Theorem.  The  identity  activation  function  does  not  satisfy  this  property.  When  multiple  layers  use  the  identity  activation  function,  the  entire  network
+is
+
+equivalent
+
+to
+
+a
+
+single-layer
+
+model.
+ Range  When  the  range  of  the  activation  function  is  finite,  gradient-based  training  methods
+tend
+
+to
+
+be
+
+more
+
+stable,
+
+because
+
+pattern
+
+presentations
+
+significantly
+
+affect
+
+only
+
+limited
+
+weights.
+
+When
+
+the
+
+range
+
+is
+
+infinite,
+
+training
+
+is
+
+generally
+
+more
+
+efficient
+
+-----------------------
+=============================================
+
+
+========= Dense Semantic Retrival ===========
+=============================================
+
+
+========= Maximum Marginal Relavance ===========
+Content: a
+
+trajectory
+
+that
+
+maximizes
+
+that
+
+function;
+
+the
+
+procedure
+
+is
+
+then
+
+known
+
+as
+
+gradient
+
+ascent
+.
+ It  is  particularly  useful  in  machine  learning for  minimizing  the  cost  or  loss  function.
+[1]
+ Gradient  descent  should  not  be  confused  with  local  search algorithms,  although  both  are  iterative  methods for  optimization.
+Gradient  descent  is  generally  attributed  to  Augustin-Louis  Cauchy,  who  first  suggested  it  in  1847.
+[2]
+ Jacques  Hadamard independently  proposed  a  similar  method  in  1907.
+[3][4]
+
+-----------------------
+Content: f
+ (for  example,
+f
+ convex and
+∇ f
+ Lipschitz)  and  particular  choices  of
+η
+.  Those  include  the  sequence
+η n=|(xn−xn−1) ⊤ [ ∇ f(xn)− ∇ f(xn−1)]|ǁ ∇ f(xn)− ∇ f(xn−1)ǁ2
+
+as  in  the  Barzilai-Borwein  method,
+[8][9]
+ or  a  sequence
+η n
+ satisfying  the  Wolfe  conditions (which  can  be  found  by  using  line  search).  When  the  function
+f
+ is  convex,  all  local  minima  are  also  global  minima,  so  in  this  case  gradient  descent  can  converge  to  the  global  solution.
+This  process  is  illustrated  in  the  adjacent  picture.  Here,
+
+-----------------------
+Content: η
+ is  allowed  to  change  at  every  iteration.
+It  is  possible  to  guarantee  the  convergence to  a  local  minimum  under  certain  assumptions  on  the  function
+
+-----------------------
+=============================================
+
+
+========= Dense Semantic Retrival ===========
+=============================================
+
+
+========= Maximum Marginal Relavance ===========
+Content: [2]
+ Jacques  Hadamard independently  proposed  a  similar  method  in  1907.
+[3][4]
+ Its  convergence  properties  for  non-linear  optimization  problems  were  first  studied  by  Haskell  Curry in  1944,
+[5]
+ with  the  method  becoming  increasingly  well-studied  and  used  in  the  following  decades.
+[6][7]
+A  simple  extension  of  gradient  descent,  stochastic  gradient  descent,  serves  as  the  most  basic  algorithm  used  for  training  most  deep  networks today.
+Description
+
+Illustration  of  gradient  descent  on  a  series  of  level  sets
+
+-----------------------
+Content: This  process  is  illustrated  in  the  adjacent  picture.  Here,
+f
+ is  assumed  to  be  defined  on  the  plane,  and  that  its  graph  has  a  bowl shape.  The  blue  curves  are  the  contour  lines,  that  is,  the  regions  on  which  the  value  of
+
+-----------------------
+Content: that
+
+moment.
+
+It
+
+takes
+
+quite
+
+some
+
+time
+
+to
+
+measure
+
+the
+
+steepness
+
+of
+
+the
+
+hill
+
+with
+
+the
+
+instrument.
+
+Thus,
+
+they
+
+should
+
+minimize
+
+their
+
+use
+
+of
+
+the
+
+instrument
+
+if
+
+they
+
+want
+
+to
+
+get
+
+down
+
+the
+
+mountain
+
+before
+
+sunset.
+
+The
+
+difficulty
+
+then
+
+is
+
+-----------------------
+=============================================
+
+
+========= Dense Semantic Retrival ===========
+=============================================
+
+
+========= Maximum Marginal Relavance ===========
+Content: a
+
+trajectory
+
+that
+
+maximizes
+
+that
+
+function;
+
+the
+
+procedure
+
+is
+
+then
+
+known
+
+as
+
+gradient
+
+ascent
+.
+ It  is  particularly  useful  in  machine  learning for  minimizing  the  cost  or  loss  function.
+[1]
+ Gradient  descent  should  not  be  confused  with  local  search algorithms,  although  both  are  iterative  methods for  optimization.
+Gradient  descent  is  generally  attributed  to  Augustin-Louis  Cauchy,  who  first  suggested  it  in  1847.
+[2]
+ Jacques  Hadamard independently  proposed  a  similar  method  in  1907.
+[3][4]
+
+-----------------------
+Content: weights.
+
+When
+
+the
+
+range
+
+is
+
+infinite,
+
+training
+
+is
+
+generally
+
+more
+
+efficient
+
+because
+
+-----------------------
+Content: This  process  is  illustrated  in  the  adjacent  picture.  Here,
+f
+ is  assumed  to  be  defined  on  the  plane,  and  that  its  graph  has  a  bowl shape.  The  blue  curves  are  the  contour  lines,  that  is,  the  regions  on  which  the  value  of
+
+-----------------------
+=============================================

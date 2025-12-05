@@ -20,7 +20,7 @@ def read_pdf(path:str):
 def split_to_chunks(pages):
 
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 600,
+        chunk_size = 700,
         chunk_overlap = 100,
     )
     chunks = splitter.split_documents(pages)
@@ -64,7 +64,7 @@ def query_note(query, note_id: str):
 if __name__ == "__main__":
     
     FILEPATH = "sandbox/gd.pdf"
-    note_id = str(uuid.uuid4())
+    note_id = "920fcc4b-7f4d-4d77-bbd9-41e9776f0832_700_100"#str(uuid.uuid4())
 
     pages = read_pdf(FILEPATH)
     chunks = split_to_chunks(pages)
